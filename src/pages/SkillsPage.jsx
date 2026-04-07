@@ -82,6 +82,14 @@ function SkillsPage() {
           </h1>
 
           <div className="service-item">
+            <h2>Hazzino Technologies Private Limited</h2>
+            <p>
+              MERN Stack Internship (30 Days) - Worked on developing dynamic web applications using MongoDB,
+              Express.js, React, and Node.js. Gained hands-on experience in building RESTful APIs, frontend
+              interfaces, and integrating full-stack features.
+            </p>
+          </div>
+          <div className="service-item">
             <h2>
               Building Model Web Application
               <br />

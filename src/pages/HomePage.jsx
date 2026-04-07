@@ -141,7 +141,7 @@ function HomePage() {
                 Projects Completed
               </Link>
               <Link to="/skills#internships" className="stat-card-btn">
-                <strong>3+</strong>
+                <strong>4+</strong>
                 <br />
                 Internships
               </Link>
