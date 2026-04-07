@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Tailwind CSS</title>
+  <rect width="128" height="128" rx="20" fill="#062633"/>
+  <path d="M28 52c7-14 15-20 28-20 20 0 23 15 33 19 7 3 13 1 21-6-7 14-15 20-28 20-20 0-23-15-33-19-7-3-13-1-21 6z" fill="#38bdf8"/>
+  <path d="M46 78c7-14 15-20 28-20 20 0 23 15 33 19 7 3 13 1 21-6-7 14-15 20-28 20-20 0-23-15-33-19-7-3-13-1-21 6z" fill="#22d3ee"/>
+</svg>

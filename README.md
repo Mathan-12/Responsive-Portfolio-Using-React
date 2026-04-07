@@ -1,37 +1,63 @@
-# Responsive Portfolio
+# Responsive Portfolio (React)
 
-This portfolio is organized in a GitHub-friendly structure.
+This portfolio has been converted from static HTML/CSS/JS into a React app using Vite and React Router.
 
 ## Project Structure
 
 ```text
 responsive-portfolio/
   index.html
+  package.json
+  package-lock.json
+  vite.config.js
   README.md
-  assets/
-    css/
+  public/
+    assets/
+      docs/
+      images/
+  src/
+    app/
+      App.jsx
+      routes.jsx
+    main.jsx
+    pages/
+      HomePage.jsx
+      AboutPage.jsx
+      SkillsPage.jsx
+      OracleDbPage.jsx
+      UiUxPage.jsx
+      WebDesignPage.jsx
+    styles/
       main.css
       sections.css
       shared.css
-    docs/
-      Resume.pdf
-    images/
-      ...all image and icon files...
-  pages/
-    about.html
-    skills.html
-    oracle-db.html
-    ui-ux.html
-    web-design.html
 ```
 
 ## Run Locally
 
-1. Open `index.html` in a browser.
-2. Or use VS Code Live Server from project root.
+1. Install dependencies:
 
-## Notes
+```bash
+npm install
+```
 
-- `index.html` is the landing page.
-- Extra pages are inside `pages/`.
-- All static assets are inside `assets/`.
+2. Start development server:
+
+```bash
+npm run dev
+```
+
+3. Build for production:
+
+```bash
+npm run build
+```
+
+## Routes
+
+- / : Home page
+- /about : About Me
+- /skills : Skills
+- /oracle-db : Database works
+- /ui-ux : UI/UX works
+- /web-design : Web design works
