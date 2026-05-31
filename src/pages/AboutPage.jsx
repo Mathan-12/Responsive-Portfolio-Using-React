@@ -27,8 +27,8 @@ function AboutPage() {
           <div className="description">
             <h2 className="highlight1">Professional Summary</h2>
             <p>
-              A passionate and reliable final-year <strong>Computer Science and Engineering</strong> student with
-              solid experience in <strong>Front-End Development</strong>, <strong>Database Management</strong>, and
+              A passionate and reliable  <strong>Computer Science and Engineering Graduate</strong> with
+              solid experience in <strong>Front-End Development</strong>,<strong>MERN Stack Development</strong>, <strong>Database Management</strong>, and
               <strong>UI/UX design principles</strong>. Skilled in developing responsive web applications,
               maintaining efficient databases, and creating user-friendly interfaces. A fast learner with strong
               problem-solving abilities and meticulous attention to detail.
