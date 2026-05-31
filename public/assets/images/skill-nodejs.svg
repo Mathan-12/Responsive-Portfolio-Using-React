@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Node.js</title>
+  <rect width="128" height="128" rx="20" fill="#152117"/>
+  <polygon points="64,16 106,40 106,88 64,112 22,88 22,40" fill="#5fa04e"/>
+  <text x="64" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f6fff3">N</text>
+</svg>
