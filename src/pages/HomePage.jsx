@@ -84,14 +84,14 @@ function HomePage() {
       <main className="main">
         <section className="intro">
           <div className="text-content">
-            <p className="eyebrow">Frontend Specialist & MERN Stack & Database Manager</p>
+            <p className="eyebrow">Software Developer | MERN Stack Developer | Full Stack Developer | GitHub Profile</p>
             <h1>I&apos;m Mathan</h1>
             <h2>
-              <span className="highlight">Front-End Developer</span> + <span className="highlight">Database Management</span> & <br></br><span className="highlight"> MERN Stack Developer</span>
+              <span className="highlight">Software Developer</span> + <span className="highlight">MERN Stack Developer</span> & <br></br><span className="highlight">Full Stack Developer</span>
             </h2>
             <p className="pararaph">
-              Creating engaging front-end interfaces while managing complex databases to ensure smooth and secure
-              digital workflows.
+              Building scalable web applications, modern user experiences, and reliable full-stack solutions that work
+              seamlessly from front end to backend, with projects and code shared through my GitHub profile.
             </p>
 
             <div className="hero-actions">

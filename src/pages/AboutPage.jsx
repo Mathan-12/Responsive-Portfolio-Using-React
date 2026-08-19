@@ -13,8 +13,8 @@ function AboutPage() {
           <div className="page-hero">
             <span className="page-kicker">Profile</span>
             <p className="page-subtitle">
-              Front-end development and database-focused engineering with a strong eye for accessibility, clarity, and
-              scalable implementation.
+              Software development, full-stack engineering, and GitHub portfolio work with a strong eye for
+              accessibility, clarity, and scalable implementation.
             </p>
             <p>
               <Link to="/" className="outline-button">
@@ -27,10 +27,11 @@ function AboutPage() {
           <div className="description">
             <h2 className="highlight1">Professional Summary</h2>
             <p>
-              A passionate and reliable  <strong>Computer Science and Engineering Graduate</strong> with
-              solid experience in <strong>Front-End Development</strong>,<strong>MERN Stack Development</strong>, <strong>Database Management</strong>, and
-              <strong>UI/UX design principles</strong>. Skilled in developing responsive web applications,
-              maintaining efficient databases, and creating user-friendly interfaces. A fast learner with strong
+              A passionate and reliable <strong>Computer Science and Engineering Graduate</strong> with
+              solid experience in <strong>Software Development</strong>, <strong>MERN Stack Development</strong>,
+              <strong> Full Stack Development</strong>, and <strong>GitHub profile project work</strong> alongside
+              <strong> UI/UX design principles</strong>. Skilled in developing responsive web applications, building
+              scalable backend systems, and creating user-friendly interfaces. A fast learner with strong
               problem-solving abilities and meticulous attention to detail.
             </p>
 
