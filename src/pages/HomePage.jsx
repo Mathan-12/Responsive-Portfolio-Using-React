@@ -84,14 +84,15 @@ function HomePage() {
       <main className="main">
         <section className="intro">
           <div className="text-content">
-            <p className="eyebrow">Software Developer | MERN Stack Developer | Full Stack Developer | GitHub Profile</p>
+            <p className="eyebrow">Software Developer | MERN Stack Developer | Full Stack Developer | GitHub Portfolio</p>
             <h1>I&apos;m Mathan</h1>
             <h2>
               <span className="highlight">Software Developer</span> + <span className="highlight">MERN Stack Developer</span> & <br></br><span className="highlight">Full Stack Developer</span>
             </h2>
             <p className="pararaph">
               Building scalable web applications, modern user experiences, and reliable full-stack solutions that work
-              seamlessly from front end to backend, with projects and code shared through my GitHub profile.
+              seamlessly from front end to backend. My GitHub portfolio includes this responsive portfolio project and
+              other development work at https://github.com/Mathan-12/Responsive-Portfolio-Using-React.
             </p>
 
             <div className="hero-actions">
@@ -120,8 +121,8 @@ function HomePage() {
                 >
                   <img src="/assets/images/icon-instagram.svg" alt="Instagram" />
                 </a>
-                <a href="https://github.com/Mathan-12" target="_blank" rel="noreferrer">
-                  <img src="/assets/images/icon-github.svg" alt="GitHub" />
+                <a href="https://github.com/Mathan-12/Responsive-Portfolio-Using-React" target="_blank" rel="noreferrer">
+                  <img src="/assets/images/icon-github.svg" alt="GitHub Repository" />
                 </a>
                 <a href="https://www.linkedin.com/in/m-mathan-41230a288" target="_blank" rel="noreferrer">
                   <img src="/assets/images/icon-linkedin.svg" alt="LinkedIn" />
@@ -136,7 +137,7 @@ function HomePage() {
                 Certified Courses
               </Link>
               <Link to="/skills#project-posts" className="stat-card-btn">
-                <strong>3+</strong>
+                <strong>4+</strong>
                 <br />
                 Projects Completed
               </Link>
@@ -153,7 +154,7 @@ function HomePage() {
             </div>
           </div>
           <div className="image">
-            <img src="/assets/images/profile-photo.jpg" alt="Mathan portrait" />
+            <img src="/assets/images/whatsapp-profile.jpeg" alt="Mathan portrait" />
             <div className="image-float-tag">Open to Work</div>
           </div>
         </section>
@@ -220,7 +221,7 @@ function HomePage() {
               <h1>Web Design</h1>
               <p>
                 I create visually appealing and fully responsive websites that adapt seamlessly to all devices. My
-                focus is on fast loading times, and accessibility for all users.
+                focus is on fast loading times and accessibility for all users.
               </p>
             </div>
 
@@ -233,14 +234,10 @@ function HomePage() {
             </div>
 
             <div className="service-item">
-              <h1>
-                Database
-                <br />
-                Management
-              </h1>
+              <h1>Full Stack Development</h1>
               <p>
-                I manage structured data with efficiency, security, and scalability in mind. My experience covers SQL,
-                backups, and performance optimization.
+                I build end-to-end web solutions from frontend interfaces to backend logic, ensuring smooth user
+                experiences and reliable application architecture.
               </p>
             </div>
 
@@ -249,6 +246,18 @@ function HomePage() {
               <p>
                 I build full-stack web apps using MongoDB, Express.js, React, and Node.js with clean API
                 architecture. End-to-end workflows include authentication, CRUD operations, and responsive UI delivery.
+              </p>
+            </div>
+
+            <div className="service-item">
+              <h1>
+                Database
+                <br />
+                Management
+              </h1>
+              <p>
+                I manage structured data with efficiency, security, and scalability in mind. My experience covers SQL,
+                backups, and performance optimization.
               </p>
             </div>
           </div>
@@ -276,17 +285,17 @@ function HomePage() {
 
           <div className="project-grid">
             <article className="project-card">
-              <img className="image_work" src="/assets/images/work-ui-ux.png" alt="UI and UX Design" />
+              <img className="image_work" src="/assets/images/work-database.png" alt="ERP financial management platform" />
               <div className="project-meta">
-                <h3>UI/UX Portfolio Design</h3>
-                <p>High-fidelity screens focused on user flow and visual hierarchy.</p>
+                <h3>ERP Financial Management Platform</h3>
+                <p>AI-powered accounting workflows with secure, blockchain-backed audit trails.</p>
               </div>
             </article>
             <article className="project-card">
-              <img className="image_work" src="/assets/images/work-database.png" alt="Database Design" />
+              <img className="image_work" src="/assets/images/work-java.png" alt="Java" />
               <div className="project-meta">
-                <h3>Database Architecture</h3>
-                <p>Normalized relational models optimized for clean data operations.</p>
+                <h3>Java Application Work</h3>
+                <p>Backend-driven modules built with object-oriented design principles.</p>
               </div>
             </article>
             <article className="project-card">
@@ -297,10 +306,17 @@ function HomePage() {
               </div>
             </article>
             <article className="project-card">
-              <img className="image_work" src="/assets/images/work-java.png" alt="Java" />
+              <img className="image_work" src="/assets/images/work-database.png" alt="Database Design" />
               <div className="project-meta">
-                <h3>Java Application Work</h3>
-                <p>Backend-driven modules built with object-oriented design principles.</p>
+                <h3>Database Architecture</h3>
+                <p>Normalized relational models optimized for clean data operations.</p>
+              </div>
+            </article>
+            <article className="project-card">
+              <img className="image_work" src="/assets/images/work-ui-ux.png" alt="UI and UX Design" />
+              <div className="project-meta">
+                <h3>UI/UX Portfolio Design</h3>
+                <p>High-fidelity screens focused on user flow and visual hierarchy.</p>
               </div>
             </article>
           </div>
@@ -310,7 +326,7 @@ function HomePage() {
           <div className="education-container">
             <div className="my_services1">
               <h1>
-                <span className="highlight_edu">My Education</span>
+                <span className="highlight_edu">Course and Certifications</span>
               </h1>
             </div>
 
@@ -360,10 +376,6 @@ function HomePage() {
             <p className="skills-description">The programming languages and technologies I work with are listed below.</p>
             <div className="skill-icons">
               <div>
-                <img src="/assets/images/skill-figma.png" alt="Figma" />
-                <p>Figma</p>
-              </div>
-              <div>
                 <img src="/assets/images/skill-html.png" alt="HTML" />
                 <p>HTML</p>
               </div>
@@ -372,8 +384,24 @@ function HomePage() {
                 <p>CSS</p>
               </div>
               <div>
-                <img src="/assets/images/skill-javascript.png" alt="Java Script" />
-                  <p>JavaScript</p>
+                <img src="/assets/images/skill-javascript.png" alt="JavaScript" />
+                <p>JavaScript</p>
+              </div>
+              <div>
+                <img src="/assets/images/skill-react.svg" alt="React" />
+                <p>React</p>
+              </div>
+              <div>
+                <img src="/assets/images/skill-nodejs.svg" alt="Node.js" />
+                <p>Node.js</p>
+              </div>
+              <div>
+                <img src="/assets/images/skill-expressjs.svg" alt="Express.js" />
+                <p>Express.js</p>
+              </div>
+              <div>
+                <img src="/assets/images/skill-mongodb.svg" alt="MongoDB" />
+                <p>MongoDB</p>
               </div>
               <div>
                 <img src="/assets/images/skill-oracle-db.png" alt="Oracle DB" />
@@ -388,24 +416,16 @@ function HomePage() {
                 <p>Python</p>
               </div>
               <div>
-                <img src="/assets/images/skill-react.svg" alt="React" />
-                <p>React</p>
-              </div>
-              <div>
-                <img src="/assets/images/skill-mongodb.svg" alt="MongoDB" />
-                <p>MongoDB</p>
-              </div>
-              <div>
-                <img src="/assets/images/skill-nodejs.svg" alt="Node.js" />
-                <p>Node.js</p>
-              </div>
-              <div>
-                <img src="/assets/images/skill-expressjs.svg" alt="Express.js" />
-                <p>Express.js</p>
-              </div>
-              <div>
                 <img src="/assets/images/skill-tailwindcss.svg" alt="Tailwind CSS" />
                 <p>Tailwind CSS</p>
+              </div>
+              <div>
+                <img src="/assets/images/skill-figma.png" alt="Figma" />
+                <p>Figma</p>
+              </div>
+              <div>
+                <img src="/assets/images/skill-oracle-db.png" alt="SQL" />
+                <p>SQL</p>
               </div>
             </div>
           </div>

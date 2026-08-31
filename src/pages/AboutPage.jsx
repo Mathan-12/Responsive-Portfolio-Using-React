@@ -29,9 +29,9 @@ function AboutPage() {
             <p>
               A passionate and reliable <strong>Computer Science and Engineering Graduate</strong> with
               solid experience in <strong>Software Development</strong>, <strong>MERN Stack Development</strong>,
-              <strong> Full Stack Development</strong>, and <strong>GitHub profile project work</strong> alongside
-              <strong> UI/UX design principles</strong>. Skilled in developing responsive web applications, building
-              scalable backend systems, and creating user-friendly interfaces. A fast learner with strong
+              <strong> Full Stack Development</strong>, and <strong>GitHub portfolio work under Mathan-12</strong>
+              alongside <strong>UI/UX design principles</strong>. Skilled in developing responsive web applications,
+              building scalable backend systems, and creating user-friendly interfaces. A fast learner with strong
               problem-solving abilities and meticulous attention to detail.
             </p>
 
@@ -42,7 +42,7 @@ function AboutPage() {
                 <br />
                 Nadar Saraswathi College of Engineering and Technology, Theni
                 <br />
-                <strong>CGPA:</strong> 8.1 (Up to 7th Semester)
+                <strong>CGPA:</strong> 8.2 
               </li>
               <li>
                 <strong>Higher Secondary (12th Standard):</strong> 75%

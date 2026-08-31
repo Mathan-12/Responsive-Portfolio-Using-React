@@ -242,6 +242,46 @@ body {
   font-size: clamp(1.1rem, 2.2vw, 1.6rem);
 }
 
+.course-platform {
+  grid-template-columns: 230px minmax(0, 1fr);
+}
+
+.course-platform-name {
+  margin: 0;
+}
+
+.course-list {
+  display: grid;
+  gap: 8px;
+}
+
+.course-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(130, 170, 205, 0.2);
+  padding-bottom: 6px;
+}
+
+.course-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.course-row span:first-child {
+  color: var(--muted);
+  min-width: 0;
+}
+
+.course-row span:last-child {
+  color: var(--text);
+  font-size: 0.96rem;
+  white-space: nowrap;
+  text-align: right;
+  min-width: 150px;
+}
+
 .project-post {
   scroll-margin-top: 28px;
 }

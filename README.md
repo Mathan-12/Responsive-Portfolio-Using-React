@@ -1,6 +1,9 @@
 # Responsive Portfolio (React)
 
-This portfolio has been converted from static HTML/CSS/JS into a React app using Vite and React Router.
+This portfolio project is hosted on GitHub at:
+https://github.com/Mathan-12/Responsive-Portfolio-Using-React
+
+It was converted from static HTML/CSS/JS into a React app using Vite and React Router.
 
 ## Project Structure
 
